@@ -1,0 +1,91 @@
+body{
+    background-color: yellowgreen;
+    background-image:url("http://www.pngmart.com/files/3/League-of-Legends-Logo-PNG-HD.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: initial;
+}
+#titulo{
+    background-color: rgba(20, 20, 20, 0.966);
+    text-align: center;
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    padding: auto;
+    margin: auto;
+    text-align: auto;
+    margin-top: 4%;
+}
+#Subtitulo{
+    text-align: center;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 25px;
+
+}
+#menu ul{
+    background-color: rgba(20, 20, 20, 0.966);
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    padding: 10px 100px;
+    display: inline-block;
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#menu ul li a:hover{
+    color:white;
+}
+#background-box{
+    background-color: rgba(20, 20, 20, 0.966);
+    padding: 30px 10px;
+    margin: 5%;
+    text-align: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}  
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: none ;
+    color: yellow;
+}
+#Rs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:rgba(20, 20, 20, 0.966);
+    margin-right: 93% ;
+    color: yellow;
+}
+
+@media (min-width: 768px) {
+    body{
+        background-color: aqua
+    }
+}
+
+@media (min-width: 992px) {
+    body{
+        background-color: rgb(255, 0, 0)
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        background-color: yellowgreen
+    }
+}
+
+
+
+
